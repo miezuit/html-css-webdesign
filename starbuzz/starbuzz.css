@@ -1,10 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Train+One&display=swap');
 h1 {
     color: crimson;
-    font-family: sans-serif;
+    font-family: "Train One";
+    font-size: 2em;
+    text-align: center;
 }
 h4 {
-    color: darkgreen;
+    color: #800000;
+    font-family: "Noto Sans KR";
+    font-weight: normal;
 }
 body {
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgb(203, 169, 157);
+}
+p {
+    font-family: "Noto Sans KR";
+}
+img {
+    height: 10em;
 }

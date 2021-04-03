@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Train+One&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 h1 {
     color: crimson;
     font-family: "Train One";
@@ -15,10 +18,21 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(203, 169, 157);
+    /* fontul de baza al site-ului */
+    font-family: "Noto Sans KR";
 }
 p {
     font-family: "Noto Sans KR";
 }
 img {
     height: 10em;
+}
+a {
+    color: darkgreen;
+    text-decoration-line: none;
+}
+/* cand cursorul este pe link */
+a:hover {
+    color: darkorange;
+    text-decoration-line: underline;
 }

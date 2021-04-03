@@ -9,9 +9,12 @@
 </head>
 <body>
 
-    <img src="logo.png" alt="">
+    <div id="logo">
+        <img src="logo.png" alt="">
+    </div>
 
-    <h1 id="start">Bine ati venit la Starbuzz!</h1>
+    <!-- span creaza o diviziune inline -->
+    <h1 id="start">Bine ati venit la <span id="starbuzz">Starbuzz</span>!</h1>
     <h2>Cea mai buna cafea de suflet din oras.</h2>
 
     Afla 
@@ -19,20 +22,32 @@
     
     <h3>Meniul nostru</h3>
     
-    <h4>Capuccino</h4>
-    <img src="https://raw.githubusercontent.com/miezuit/html_css_training/master/starbuzz/images/capuccino.jpg" alt="">
-    <p>Cafea arabica, spuma de lapte, dragoste</p>
-    <p>12 RON</p>
-    
+    <div class="produs">
+        <h4 id="capuccino">Capuccino</h4>
+        <img src="https://raw.githubusercontent.com/miezuit/html_css_training/master/starbuzz/images/capuccino.jpg" alt="">
+        <p>Cafea arabica, spuma de lapte, dragoste</p>
+        <p class="pret">12 RON</p>
+    </div>
+
     <h4>Espresso</h4>
     <img src="https://raw.githubusercontent.com/miezuit/html_css_training/master/starbuzz/images/coffee.jpg" alt="">
     <p>Cafea columbiana si braziliana, raze de soare</p>
-    <p>15 RON</p>
+    <p class="pret">15 RON</p>
     
     <h4>Ceai verde</h4>
     <img src="https://raw.githubusercontent.com/miezuit/html_css_training/master/starbuzz/images/tea.jpg" alt="">
     <p>Frunze de ceai verde, lapte, miere de Manuka</p>
-    <p>20 RON </p>
+    <p class="pret">20 RON </p>
+
+    <h3>3 motive pentru care sa bei cafea</h3>
+
+    <!-- lista neordonata (unordered list) -->
+    <ul>
+        <!-- list items -->
+        <li>E foarte buna</li>
+        <li>E aromata</li>
+        <li>Iti da energie</li>
+    </ul>
 
     <a href="#start">Sus</a>
 </body>

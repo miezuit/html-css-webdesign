@@ -2,6 +2,7 @@
 html {
     scroll-behavior: smooth;
 }
+/* h1 este element bloc */
 h1 {
     color: crimson;
     font-family: "Train One";
@@ -27,6 +28,7 @@ p {
 img {
     height: 10em;
 }
+/* a este element inline */
 a {
     color: darkgreen;
     text-decoration-line: none;
@@ -35,4 +37,26 @@ a {
 a:hover {
     color: darkorange;
     text-decoration-line: underline;
+}
+/* stilizam elementul cu id-ul capuccino */
+#capuccino {
+    color: saddlebrown;
+}
+/* stilizam elementele din clasa pret */
+.pret {
+    font-family: "Train One";
+    color: darkgreen;
+}
+ul {
+    list-style-type: "☕";
+}
+#starbuzz {
+    font-size: 1.5em;
+}
+.produs {
+    background-color: rgba(99, 81, 42, 0.057);
+}
+/* aliniem logo-ul pe centru in interiorul div-ului */
+#logo {
+    text-align: center;
 }

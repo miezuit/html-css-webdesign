@@ -1,0 +1,50 @@
+div#hello {
+    background-color: rgb(245, 149, 65);
+    color: white;
+    width: 10em;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    transition-duration: 1s;
+    animation-name: hello;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+div#hello:hover {
+    transform: translateX(2em) translateY(3em) rotate(30deg) scale(1.2);
+    background-color: teal;
+}
+@keyframes hello {
+    50% {
+        transform: translateX(5em) translateY(0em) rotate(0deg) scale(1);
+        background-color: rgb(245, 149, 65);
+    }
+    to {
+        transform: translateX(5em) translateY(5em) rotate(30deg) scale(1.2);
+        background-color: teal;
+    }
+}
+div#cube {
+    height: 5em;
+    width: 5em;
+    background-color: royalblue;
+    transform: translateX(0) translateY(10em) rotate(0deg);
+    border-radius: 1em;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes rotate {
+    to {
+        transform: translateX(20em) translateY(10em) rotate(360deg);
+    }
+}

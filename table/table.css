@@ -1,0 +1,21 @@
+table {
+    border-style: solid;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+th, td {
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px 5px;
+}
+th {
+    background-color: darkseagreen;
+}
+td {
+    border-left-style: none;
+    border-right-style: none;
+}
+tr:nth-child(2n) {
+    background-color: gainsboro;
+}

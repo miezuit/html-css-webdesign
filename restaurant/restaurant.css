@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Amatic+SC:wght@700&display=swap');
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Alegreya;
+}
+nav {
+    opacity: 0.8;
+}
+.navbar-brand img {
+    height: 3.5em;
+}
+.nav-link {
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+#navbarNav {
+    justify-content: flex-end;
+}
+#home-image {
+    background-image: url(https://raw.githubusercontent.com/miezuit/html_css_training/master/restaurant/bg-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    /* parallax effect */
+    background-attachment: fixed;
+}
+#ambience {
+    background-image: url(https://raw.githubusercontent.com/miezuit/html_css_training/master/restaurant/ambiance.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+p {
+    font-size: 1.2em;
+}
+h2 {
+    font-family: 'Amatic SC';
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+h2 span {
+    display: block;
+}
+h2 span:first-child {
+    font-size: 1.5em;
+    color: rgb(54, 173, 176);
+}
+h2 span:last-child {
+    font-size: 2em;
+    color: rgb(242, 160, 40);
+}
+#about {
+    position: relative;
+    top: -4em;
+}

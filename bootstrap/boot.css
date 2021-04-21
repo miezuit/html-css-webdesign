@@ -1,0 +1,22 @@
+body {
+    /* flex poate sa centreze si pe verticala si pe orizontala */
+    /* este mai flexibil */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar {
+    width: 100%;
+}
+.nav-item {
+    font-family: monospace;
+}
+.alert {
+    width: 50%;
+}
+.carousel {
+    width: 50%;
+    /* margin auto centreaza pe orizontala un element bloc */
+    margin: auto;
+}
